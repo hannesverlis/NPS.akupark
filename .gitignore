@@ -9,9 +9,6 @@ venv/
 ENV/
 .venv
 
-# CSV andmefailid (suured failid)
-*.csv
-
 # Tulemuste failid
 akupargi_tulemused.csv
 akupargi_tulemused.txt
