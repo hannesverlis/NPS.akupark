@@ -30,6 +30,17 @@ python app.py
 
 ## Kasutamine
 
+### Kohalikult (Flask)
+
+1. Käivitage rakendus:
+```bash
+python app.py
+```
+
+2. Avage brauseris: http://localhost:5000
+
+### Vercel'is (Staatiline)
+
 1. Sisestage akupargi parameetrid:
    - Aku Võimsus (MW) - vaikimisi 50 MW
    - Aku Mahtuvus (MWh) - vaikimisi 100 MWh
@@ -46,6 +57,15 @@ python app.py
      - Keskmine tulu tsükli kohta
      - Erinevus keskmisest (värvikoodiga)
      - Keskmine NPS hind kuus
+
+## Vercel'i Paigaldamine
+
+1. Liituge Vercel'iga: https://vercel.com
+2. Importige GitHub repositoorium: https://github.com/hannesverlis/NPS.akupark
+3. Vercel tuvastab automaatselt `vercel.json` faili
+4. Deploy toimub automaatselt
+
+Rakendus töötab täielikult kliendipoolselt - CSV failid laaditakse otse GitHubist.
 
 ## Failid
 
